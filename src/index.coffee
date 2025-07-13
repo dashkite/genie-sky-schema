@@ -2,7 +2,9 @@ import { Runner } from "./runner"
 
 run = Runner.make -> import( "./tasks" )
 
-export default ( Genie, options ) ->
+export default ( Genie ) ->
+
+  options = Genie.get "sky"
 
   Genie.define "sky:schema:validate", run "validate", options
   
