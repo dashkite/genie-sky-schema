@@ -23,15 +23,15 @@
     }
   },
   "main": "build/node/src/index.js",
-  "files": [
-    "build/node/src",
-    "build/browser/src"
-  ],
   "scripts": {
     "test": "genie test",
     "build": "genie build",
     "release": "genie release"
   },
+  "files": [
+    "build/node/src",
+    "build/browser/src"
+  ],
   "devDependencies": {
     "@dashkite/amen": "^0.5.0",
     "@dashkite/amen-console": "^0.4.0",
